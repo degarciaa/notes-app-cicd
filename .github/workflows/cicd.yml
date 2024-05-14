@@ -6,7 +6,7 @@ on:
       - 'v*'
 
 jobs:
-  build-push-docker-image
+  build-push-docker-image:
     name: Build and Push Docker Image to Amazon ECR
     runs-on: ubuntu-latest
 
